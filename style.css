@@ -1,0 +1,97 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+#about
+{
+    background-color: blue;
+    color: yellow;
+}
+#image img
+{
+    float: inline-start;
+    margin-top: -80px;
+    width: 80px;
+    height: auto;
+}
+    
+#content1
+{
+    color: white;
+}
+
+#content2
+{
+    color: white;
+}
+#events
+{
+    background-color: blue;
+    color: yellow;
+}
+#members
+{
+    background-color: blue;
+    color: yellow;
+}
+
+header {
+    background-color:#bcb8b1;
+    color: blue;
+    padding: 1rem;
+    text-align: center;
+}
+header h1 { 
+    color: blue; 
+    text-shadow: 
+        0.8px 0.8px 0 black,  
+        -0.8px -0.8px 0 black,
+        0.8px -0.8px 0 black, 
+        -0.8px 0.8px 0 black;  
+}
+
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+    color: white; 
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+
+section {
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.member {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+#members .member img {
+    width: 100px; 
+    height: auto; 
+    float: inline-end;
+    position: relative; 
+    top: -100px; 
+}
+
+
